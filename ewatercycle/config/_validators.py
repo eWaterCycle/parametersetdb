@@ -136,15 +136,15 @@ _validators = {
     'output_dir': validate_path_or_none,
     'ewatercycle_config': validate_path_or_none,
     # wflow specific
-    'wflow.singularity_image': validate_string_or_none,
+    'wflow.singularity_image': validate_path_or_none,
     'wflow.docker_image': validate_string_or_none,
     # marrmot specific
     'marrmot.singularity_image': validate_string_or_none,
     'marrmot.docker_image': validate_string_or_none,
     # lisflood specific
-    'lisflood.singularity_image': validate_string_or_none,
+    'lisflood.singularity_image': validate_path_or_none,
     'lisflood.docker_image': validate_string_or_none,
     # pcrglobwb specific
-    'pcrglobwb.singularity_image': validate_string_or_none,
+    'pcrglobwb.singularity_image': validate_path_or_none,
     'pcrglobwb.docker_image': validate_string_or_none,
 }
